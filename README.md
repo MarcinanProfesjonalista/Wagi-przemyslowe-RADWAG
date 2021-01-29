@@ -4,11 +4,13 @@ To programy które będą obsługiwać komunikację Waga &lt;-> Komputer -> Serw
 Zrobiłem już program obsługujący ważenie dla pieców.
 Teraz trzeba go przetestować (bo niemam w mieszkaniu jak). Po udanych testach będzie można po prostu iść i działać.  
 
-#Opis działania:
+# Opis działania:
 Program obsługi wag składa się z dwóch elementów: menadżera okien który tylko uruchamia wagi i ustawia okna, oraz Interfejsu użytkownika który odpowiada za poprawne wysyłanie danych do serwera i wyświetlanie tego co się dzieje aktualnie na wadze (i programie)
-#Menedżer okien:
+# Menedżer okien:
 Po uruchomieniu komputera Autorun uruchamia (BAT*) program zarządzający wagami.Program odczytuje plik w którym zawarte są ustawienia każdej podłączonej do komputera wagi.Program uruchamia interfejs dla każdej wagi osobno, oraz ustawia okna wyświetlające stan wagi na ekranie tak aby nie zasłaniały się nawzajem. 
-Wyświetla błędy w przypadku niepoprawnego uruchomienia wagi.Interfejs użytkownikaŁączy się z wagą. Jeżeli nie rozpoznaje wagi na porcie to daje znać. 
+Wyświetla błędy w przypadku niepoprawnego uruchomienia wagi.
+# Interfejs użytkownika
+Łączy się z wagą. Jeżeli nie rozpoznaje wagi na porcie to daje znać. 
 Łączy się z serwerem. 
 Łączy się z ewentualnym pilotem na porcie COM 
 Wyświetla błędy w przypadku problemów z połączeniemWyświetla GUI z podaną wagą, stanem połączenia i przyciskami odpowiednio: Wyślij Taruj i Cofnij dla wag piecowaych, oraz Pauza ważenia, Taruj, Wznowienie ważenia, dla wag farb. 

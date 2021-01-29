@@ -1,6 +1,8 @@
 # Wagi-przemyslowe-RADWAG
 To programy które będą obsługiwać komunikację Waga &lt;-> Komputer -> Serwer HMI 
 
+![podstawowy interfejs uzytkownika](https://github.com/MarcinanBarbarzynca/Wagi-przemyslowe-RADWAG/blob/main/wersja%20stabilna%200.1/interfejs.png)
+
 Zrobiłem program obsługujący ważenie dla pieców.
 Teraz trzeba go przetestować (bo niemam w mieszkaniu jak). Po udanych testach będzie można po prostu iść i działać.  
 

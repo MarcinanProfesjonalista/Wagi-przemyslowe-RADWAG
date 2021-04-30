@@ -1,0 +1,4 @@
+Skrypt bez polskich znakow adres skryptu na serwerze ktory obsluguje logowanie z wag. Wagi podpięte są do portów USB. Standardowa prędkość transmisji to 9600. 
+10.186.10.2/test/insert.php
+Nazwa wagi;rozmieszczenie na pulpicie X;rozmieszczenie na pulpicie Y;port COM;Unikatowy id wagi;waga piecowa = 0 waga farby = 1;COM fo ktorego podlaczony jest pilot danej wagi
+Waga pieca od sciany;0;0;4;2;0;1
